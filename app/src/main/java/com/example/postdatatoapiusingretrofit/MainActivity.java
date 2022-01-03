@@ -21,8 +21,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class MainActivity extends AppCompatActivity {
 
-    // creating variables for our edittext,
-    // button, textview and progressbar.
+
     private EditText nameEdt, jobEdt;
     private Button postDataBtn;
     private TextView responseTV;
@@ -42,7 +41,6 @@ public class MainActivity extends AppCompatActivity {
         loadingPB = findViewById(R.id.idLoadingPB);
 
 
-        // adding on click listener to our button.
         postDataBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
